@@ -49,4 +49,7 @@
 5. comandos adicionales
    ```bash
    docker rm -f jupyter #Eliminar contenedor
-   docker rmi -f 90afdd32295b
+   docker rmi -f 90afdd32295b #Eliminar imagen
+   docker logs -f jupyter
+
+-- pip install -r requirements..txt # instalar paquetes desde un archivo
